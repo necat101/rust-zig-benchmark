@@ -1,0 +1,20 @@
+# Binaries
+nbody_rust
+nbody_zig
+*.exe
+
+# Build artifacts
+*.o
+*.obj
+
+# Zig cache
+.zig-cache/
+zig-out/
+
+# Rust
+/target/
+Cargo.lock
+
+# OS
+.DS_Store
+Thumbs.db
